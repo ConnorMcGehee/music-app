@@ -3,6 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import LoginInput from './LoginInput';
 import { Button, Box, Card, CardContent, CardActions, Switch, Slider, Select, MenuItem, Stack, SelectChangeEvent } from '@mui/material'
 import './App.css'
+import "./assets/Passacaglia.wav"
 import { ChangeEvent, SyntheticEvent, useRef, useState } from 'react';
 import VolumeDown from '@mui/icons-material/VolumeDown';
 import VolumeUp from '@mui/icons-material/VolumeUp';
@@ -97,7 +98,7 @@ function App() {
                   fontSize: "8rem"
                 }} />)}
             </Button>
-            <audio ref={audioRef} src="src/Passacaglia.wav" loop />
+            <audio ref={audioRef} src="src/assets/Passacaglia.wav" loop />
             <Box sx={{
               display: "flex",
               gap: "1rem",
